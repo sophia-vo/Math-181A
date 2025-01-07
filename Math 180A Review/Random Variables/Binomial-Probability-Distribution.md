@@ -8,6 +8,6 @@ Let $p = P$ (success occurs at any given trial) and assume that $p$ remains cons
 
 $$P(\text{$k$ successes}) = {n \choose k} p^k (1-p)^{n-k}, \quad k = 0, 1, \cdots, n$$
 
-Let the RV $X$ denote the number of successes in $n$ independent trials, then  
+Let the random variable $X$ denote the number of successes in $n$ independent trials, then  
 
 $$P(X=k) = p_X (k) = {n \choose k} p^k (1-p)^{n-k}, \quad k = 0, 1, \cdots , n$$
