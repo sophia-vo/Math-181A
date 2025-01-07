@@ -1,4 +1,4 @@
-# Continuous Random Variable
+# Continuous Random Variables
 ### Definition
 A probability function $P$ on a set of real numbers $S$ is called *continuous* if there exists a function $f(t)$ such that for any closed interval $\[a, b\] \in S, P(\[a, b\]) =  \int_a^b f(t) dt$. The fucntion $f(t)$ must have the following properties:
 
