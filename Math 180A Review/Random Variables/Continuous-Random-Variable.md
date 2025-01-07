@@ -12,3 +12,10 @@ Then the probabiltiy $P(A) = \int_A f(t)dt$ for any set $A$ where the integral i
 Let $Y$ be a function from the sample space $S$ to the real numbers. The function $Y$ is called a *continuous random variable* if there exists a function $f_Y(y)$ such that for any real numbers $a$ and $b$ with $a < b$
 
 $$P(a \leq Y \leq b) = \int_a^b f_Y(y)dy$$
+
+## Expectation
+### Definition
+
+Let $Y$ be a continuous random variable with pdf $f_Y(y)$,
+
+$$E(Y) = \mu = \mu_Y= \int_{- \infty}^{\infty} y \cdot f_Y(y)dy$$
