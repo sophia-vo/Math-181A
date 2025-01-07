@@ -23,4 +23,4 @@ Let $X$ have a geometric distribution with $p_X(k) = (1-p)^{k-1}p, k=1, 2, \ldot
 
 $$E(X) = \frac{1}{p}$$
 
-$$\text{Var}(X) = \frac{1-p}(p^2)$$
+$$\text{Var}(X) = \frac{1-p}{p^2}$$
