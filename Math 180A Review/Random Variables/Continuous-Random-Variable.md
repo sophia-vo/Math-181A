@@ -19,3 +19,16 @@ $$P(a \leq Y \leq b) = \int_a^b f_Y(y)dy$$
 Let $Y$ be a continuous random variable with pdf $f_Y(y)$,
 
 $$E(Y) = \mu = \mu_Y= \int_{- \infty}^{\infty} y \cdot f_Y(y)dy$$
+
+## Variance
+### Definition
+The *variance* of a random variable is the expected value of its squared deviations from $\mu$. If $Y$ is continuous, with pdf $f_Y(y)$, 
+
+$$\text{Var}(Y) = \sigma^2 = E\[(Y-\mu)^2\] = \int_{- \infty}^{\infty} (y-\mu)^2 \cdot f_Y(y)dy$$
+
+The *standard deviation* is 
+
+$$\sigma = \text{standard deviation} = \sqrt{\int_{- \infty}^{\infty} (y-\mu)^2 \cdot f_Y(y)dy}$$
+
+> [!IMPORTANT]
+> Additional theorems are found in the *Discrete Random Variable* section.
