@@ -31,4 +31,4 @@ The *standard deviation* is
 $$\sigma = \text{standard deviation} = \sqrt{\int_{- \infty}^{\infty} (y-\mu)^2 \cdot f_Y(y)dy}$$
 
 > [!IMPORTANT]
-> Additional theorems are found in the *Discrete Random Variable* section.
+> Additional theorems can be found in the *Discrete Random Variable* section.
