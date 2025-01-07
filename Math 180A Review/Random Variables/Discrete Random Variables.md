@@ -65,7 +65,7 @@ $$\text{Var}(X) = \sigma^2 = E\[(X-\mu)^2\] = \sum_{\text{all $k$}} (k- \mu)^2 \
 > $$\sigma = \text{standard deviation} = \sqrt{\sum_{\text{all $k$}} (k- \mu)^2 \cdot p_X(k)}$$
 
 > [!IMPORTANT]
-> The two theorems before apply to both discrete and continuous random variables.
+> The two theorems below apply to both discrete and continuous random variables.
 
 ### Theorem
 Let $W$ be any random variable, discrete or continuous, having mean $\mu# and for which $E(W^2)$ is finite. Then
