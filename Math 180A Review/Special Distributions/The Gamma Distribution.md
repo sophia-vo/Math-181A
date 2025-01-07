@@ -27,4 +27,4 @@ Suppose that $Y$ has a gamma pdf with parameters $r$ and $\lambda$. Then
 
 $$E(Y) = r/ \lambda$$
 
-$$\text(Var)(Y) = r / \lambda^2$$
+$$\text{Var}(Y) = r / \lambda^2$$
