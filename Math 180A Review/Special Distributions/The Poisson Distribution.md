@@ -27,8 +27,10 @@ The random variable $X$ is said to have a Poisson distribution if
 $$p_X(k) = P(X=k)= \frac{e^{- \lambda} \lambda^k}{k!}, \quad k=0, 1, 2, \cdots$$
 
 where $\lambda$ is a positive constant. For any Poisson random variable,
-- $E(X) = \lambda$
-- $\text{Var}(X) = \lambda$
+
+$$E(X) = \lambda$$
+
+$$\text{Var}(X) = \lambda$$
 
 Poisson data invariability refer to the numbers of times a certain event occurs during each of a series of "units" (often *time* or *space*).
 
