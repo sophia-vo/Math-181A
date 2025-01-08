@@ -43,7 +43,7 @@ $$\begin{align}
 p_X(K) & = P(k \text{ events occur in unit time (or volume or space)}) \\
 & = e^{- \lambda} \lambda^k / k!, \quad 0,1,2,\ldots \\
 E(X) & = \lambda \\
-\text{Var}(X) = \lambda 
+\text{Var}(X) & = \lambda 
 \end{align}$$
 
 ## Continuous
