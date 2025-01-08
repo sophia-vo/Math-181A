@@ -1,4 +1,4 @@
-# Properties of Frequently-Used pdfs
+# Properties of Frequently Used pdfs
 
 ## Discrete models
 
