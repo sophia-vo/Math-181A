@@ -68,8 +68,8 @@ E(Y) & = r/ \lambda \\
 
 $$\begin{align}
 f_Y(y) & = \frac{1}{\sqrt{2 \pi} \sigma} e^{- \frac{1}{2} (\frac{y-\mu}{\sigma})^2}, \quad - \infty < y < \infty \\
-E(Y) = \mu \\
-\text{Var}(Y) = \sigma^2
+E(Y) & = \mu \\
+\text{Var}(Y) & = \sigma^2
 \end{align}$$
 
 
