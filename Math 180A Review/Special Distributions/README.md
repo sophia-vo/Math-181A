@@ -13,7 +13,12 @@ E(X) & = np \\
 \text{Var}(X) & = np(1-p)
 \end{align}$$
 
-### Geometric
+### Geometric: $X ~ Geom(p)$
+
+$$X \in \{ 1,2,3, \ldots \} \text{ (support)}$$
+
+> $X$ is the number of trials needed to get the first success including tne success), Each trial has success probability $p$.
+
 Given: $n$ independent trials, each having probability $p$ of success
 
 $$\begin{align}
