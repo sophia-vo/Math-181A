@@ -29,3 +29,10 @@ $$E(Y) = \frac{1}{n} \sum_{i=1}^n y_i ; \quad E(Y^2) = \frac{1}{n} \sum_{i=1}^n 
 If the underlying random variable $X$ is discrete with $p_X(k;\theta_1,\theta_2,\ldots,\theta_s)$, the method of moments estimates are the solutions of the system of equations,
 
 $$E(X^j) = \frac{1}{n} \sum_{i=1}^n k_i^j, \quad j=1, \ldots, s$$
+
+## Estimating Parameters: The Method of Maximum Likelihood (MLE)
+
+> It seems plausible to choose as the estimate for $\theta$ the value of the parameter that maximizes the "likelihood" of the sample. The latter is measured by a *likelihood function*, which is simply the product of the underlying pdf evauated for each of the data points.
+
+### Definition
+Let
