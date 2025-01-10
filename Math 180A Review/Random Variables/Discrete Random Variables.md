@@ -23,7 +23,7 @@ A function whose domain is a sample space $S$ and whose values form a finite or 
 
 Associated with every discrete random variable $X$ is a *probability density function (or pdf)*, denoted $o_X(k)$, where
 
-$$p_X(k) = P(| s \in S | X(s) = k |)$$
+$$p_X(k) = P( s \in S | X(s) = k )$$
 
 Note that $p_X(k) = 0$ for any $k$ not in the range of $X$. For notational simplicity, we delete all references to $s$ and $S$ and write $p_X(k) = P(X-k)$.
 
@@ -68,7 +68,7 @@ $$\text{Var}(X) = \sigma^2 = E\[(X-\mu)^2\] = \sum_{\text{all $k$}} (k- \mu)^2 \
 > The two theorems below apply to both discrete and continuous random variables.
 
 ### Theorem
-Let $W$ be any random variable, discrete or continuous, having mean $\mu# and for which $E(W^2)$ is finite. Then
+Let $W$ be any random variable, discrete or continuous, having mean $\mu$ and for which $E(W^2)$ is finite. Then
 
 $$\text{Var}(W) = \sigma^2 = E(W^2) - \mu^2$$
 
