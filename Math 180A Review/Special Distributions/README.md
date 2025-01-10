@@ -10,7 +10,7 @@ Given: $n$ independent trials, each having probability $p$ of success
 
 $$\begin{align}
 \text{Let } X & = \text{number of successes} \\
-p_X(k) & = P(k \text{ successes occur in } n \text{trials}) \\
+p_X(k) & = P(k \text{ successes occur in } n \text{ trials}) \\
 & = {n \choose k} p^k (1-p)^{n-k}, \quad k=0,1,\ldots,n \\
 \\
 E(X) & = np \\
