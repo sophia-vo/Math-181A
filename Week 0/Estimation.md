@@ -35,4 +35,14 @@ $$E(X^j) = \frac{1}{n} \sum_{i=1}^n k_i^j, \quad j=1, \ldots, s$$
 > It seems plausible to choose as the estimate for $\theta$ the value of the parameter that maximizes the "likelihood" of the sample. The latter is measured by a *likelihood function*, which is simply the product of the underlying pdf evauated for each of the data points.
 
 ### Definition
-Let
+Let $k_1,k_2, \ldots, k_n$ be a random sample of size $n$ from the discrete pdf $p_X(k; \theta)$, where $\theta$ is an unknown parameter. The *likelihood function*, $L(\theta)$, is the product of the pdf evaluated at the $n$ $k_i\text{'s}$. That is,
+
+$$L(\theta) = \prod_{i=1}^n p_X(k_i;\theta)$$
+
+If $y_1,y_2,\ldots,y_n$ is a random sample of size $n$ from a continuous pdf, $f_Y(y;\theta)$, where $\theta$ is an unknown parameter, the likelihood function is written
+
+$$L(\theta) = \prod_{i=1}^n f_Y(y_i;\theta)$$
+
+### Definition
+
+Let $L(\theta) = \prod_{i=1}^n p_X(k_i;\theta)$ and $L(\theta) = \prod_{i=1}^n f_Y(y_i;\theta)$ be the likelihood functions corresponding to random samples $k_1,k_2,\ldots,k_n$ and $y_1,y_2,\ldots,y_n$ drawn from the discrete pdf $p_X(k;\theta)$ and continuous pdf $f_Y(y;\theta)$, respectively, where $\theta$ is an unknown parameter. In each case, let $\hat{\theta}$ be a value of the parameter such that $L(\hat{\theta}) \geq L(\theta)$ for all possible values of $\theta$. Then $\hat{\theta}$ is called a *maximum likelihood estimate* for $\theta$.
