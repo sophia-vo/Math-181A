@@ -1,4 +1,4 @@
-# Week 0
+# Week 1
 
 - Math 180A Review
 - 5.2, MME
